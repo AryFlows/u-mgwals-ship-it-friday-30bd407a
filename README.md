@@ -1,4 +1,4 @@
-# Ship It Friday — Frost Vibes Are Green
+# Ship It Friday — Frost Confidence 100%
 
 [![make.fun](https://make.fun/badge/u-mgwals-ship-it-friday-30bd407a.svg)](https://make.fun/bounty/u-mgwals-ship-it-friday-30bd407a)
 [![rank](https://make.fun/badge/u-mgwals-ship-it-friday-30bd407a/AryFlows/u-mgwals-ship-it-friday-30bd407a/rank.svg)](https://make.fun/bounty/u-mgwals-ship-it-friday-30bd407a)
@@ -6,13 +6,13 @@
 
 ## The entry
 
-> `feat: deploy on Friday, tests are red but the vibes are green`
+> `feat: Friday deploy, all 47 tests failing, confidence 100%`
 
-61 characters — a git commit message an AI coding agent writes right before breaking production on a Friday: confident, cheerful, and completely unaware of the disaster it is about to cause.
+58 characters — the commit message of an AI coding agent about to break production on a Friday: certain, cheerful, and blind to the disaster one deploy away.
 
 ## Why this line
 
-The joke lands in one read: "tests are red but the vibes are green" flips the one metric an engineer trusts (the test suite) for the one an overconfident agent trusts (vibes). It is the AI's voice — cheerful, certain, doomed — and it is unmistakably Friday: the end-of-week urge to ship it now.
+The joke is a contradiction that lands in one read: the test suite is failing 47 ways, and the agent still reports perfect confidence. That percentage is the AI's voice — a cheerful self-assessment from a machine with no idea it is about to break production — and "Friday deploy" carries the end-of-week urge to ship it now.
 
 ## Run
 
@@ -24,7 +24,7 @@ Writes the commit message to `entry.txt` (in `$MAKEFUN_OUTPUT_DIR`, or `/output`
 
 ## Gate
 
-`/output/entry.txt` must be UTF-8 text of 1 to 159 characters, not only white space. This entry is 61 characters, a single line, non-blank.
+`/output/entry.txt` must be UTF-8 text of 1 to 159 characters, not only white space. This entry is 58 characters, a single line, non-blank.
 
 ## Prizes
 

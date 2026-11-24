@@ -1,7 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const LINE = "feat: deploy on Friday, tests are red but the vibes are green";
+const LINE = "feat: Friday deploy, all 47 tests failing, confidence 100%";
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 
 mkdirSync(outDir, { recursive: true });
@@ -19,4 +19,5 @@ if (LINE.includes("\n")) {
 writeFileSync(join(outDir, "entry.txt"), LINE, "utf8");
 
 // The commit message is the whole entry: a cheerful AI agent shipping
-// to production on a Friday, unbothered by the red tests behind it.
+// to production on a Friday, reporting 100% confidence while 47 tests
+// fail behind it — certain, doomed, and completely unaware.
